@@ -1,6 +1,7 @@
 body {
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
+
 }
 
 html {
@@ -26,14 +27,28 @@ html {
 }
 
 .about-section {
-      padding: 50px;
+      padding: 100px;
       text-align: center;
-      background-color: #474e5d;
-      color: white;
+      background-image: url("pic/2.jpg");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      background-attachment: fixed;
+}
+.about-section2 {
+      padding: 100px;
+      text-align: center;
+      background-image: url("pic/3.jpg");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      
+      background-attachment: fixed;
+      
 }
 
 .container {
-      padding: 0 16px;
+      padding: 0;
 }
 
 .container::after,
@@ -49,8 +64,8 @@ html {
 
 .button {
       background-color: #FF4500;
-      border: white;
-      color: white;
+      /*border: white;
+      color: white;*/
       padding: 15px 19px;
       font-size: 25px;
       cursor: pointer;
@@ -58,15 +73,15 @@ html {
 
 .button-b {
       background-color: #FF4500;
-      border: white;
-      color: white;
+      /*border: white;
+      color: white;*/
       padding: 20px 19px;
       font-size: 25px;
       cursor: pointer;
 }
 
 .button:hover {
-      border-bottom: 2px SOLID white;
+      /*border-bottom: 2px SOLID white;*/
       background-color: #FF4500;
       filter: grayscale(20%);
 }
