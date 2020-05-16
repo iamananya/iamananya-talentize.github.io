@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="shortcut icon" href="pic/1.jpg" />
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+      <!--responsive tab--->
+      <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                  <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Talentize</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                              <li><a href="index.html">Home</a></li>
+                              <li class="dropdown">
+
+
+                              <li class="active"><a href="blog.html">Blog</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                              <li><a href="about.html">About</a></li>
+                        </ul>
+                        </li>
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                              <li><a href="signin.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                              <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                  </div>
+            </div>
+      </nav>
+
+      <script>
+            window.onscroll = function () { myFunction() };
+
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                  if (window.pageYOffset > sticky) {
+                        header.classList.add("sticky");
+                  } else {
+                        header.classList.remove("sticky");
+                  }
+            }
+      </script>
+
+      <div class="about-section">
+            <h1>Blog Page</h1>
+            <p>Here is our story!</p>
+
+      </div>
+
+      <h2 style="text-align:center"></h2>
+      <div class="row">
+            <div class="column">
+                  <div class="card">
+                        <img src="pic/1.jpg" alt="1" style="width:20%">
+                        <div class="container">
+                              <h2>Topic 1</h2>
+                              <p class="title">Blog No: 1</p>
+
+                              <p>"Hello World!"</p>
+
+                              <p></p>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="column">
+                  <div class="card">
+                        <img src="pic/1.jpg" alt="1" style="width:20%">
+                        <div class="container">
+                              <h2>Topic 2</h2>
+                              <p class="title">Blog No: 2</p>
+                              <p>"Hello World!"</p>
+
+                              <p></p>
+                        </div>
+                  </div>
+            </div>
+            <div class="column">
+                  <div class="card">
+                        <img src="pic/1.jpg" alt="1" style="width:20%">
+                        <div class="container">
+                              <h2>Topic 3</h2>
+                              <p class="title">Blog No: 3</p>
+
+                              <p>"Hello World!"</p>
+
+                              <p></p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="row">
+            <div class="column">
+                  <div class="card">
+                        <img src="pic/1.jpg" alt="1" style="width:20%">
+                        <div class="container">
+                              <h2>Topic 4</h2>
+                              <p class="title">Blog No: 4</p>
+                              <p>"Hello World!"</p>
+
+                              <p></p>
+                        </div>
+                  </div>
+            </div>
+            <div class="column">
+                  <div class="card">
+                        <img src="pic/1.jpg" alt="1" style="width:20%">
+                        <div class="container">
+                              <h2>Topic 5</h2>
+                              <p class="title">Blog No: 5</p>
+                              <p>"Hello World!"</p>
+
+                              <p></p>
+                        </div>
+                  </div>
+            </div>
+            <div class="column">
+                  <div class="card">
+                        <img src="pic/1.jpg" alt="1" style="width:20%">
+                        <div class="container">
+                              <h2>Topic 6</h2>
+                              <p class="title">Blog No: 6</p>
+                              <p>"Hello World!"</p>
+
+                              <p></p>
+                        </div>
+                  </div>
+            </div>
+
+
+      </div>
+
+
+      <footer class="text-center">
+            <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+                  <span class="glyphicon glyphicon-chevron-up"></span>
+            </a><br><br>
+            <p>Talentize.ai</p>
+            <p>Phone:1234567890</p>
+            <p>E-mail:abc@abc.com</p>
+      </footer>
+
+      <script>
+            $(document).ready(function () {
+                  // Initialize Tooltip
+                  $('[data-toggle="tooltip"]').tooltip();
+            })
+      </script>
+      <script>
+            $(document).ready(function () {
+                  // Add smooth scrolling to all links in navbar + footer link
+                  $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+                        // Make sure this.hash has a value before overriding default behavior
+                        if (this.hash !== "") {
+
+                              // Prevent default anchor click behavior
+                              event.preventDefault();
+
+                              // Store hash
+                              var hash = this.hash;
+
+                              // Using jQuery's animate() method to add smooth page scroll
+                              // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                              $('html, body').animate({
+                                    scrollTop: $(hash).offset().top
+                              }, 900, function () {
+
+                                    // Add hash (#) to URL when done scrolling (default click behavior)
+                                    window.location.hash = hash;
+                              });
+                        } // End if
+                  });
+            })
+      </script>
+</body>
+
+</html>
